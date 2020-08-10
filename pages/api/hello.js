@@ -3,5 +3,5 @@
 export default (req, res) => {
   console.log('ale');
   res.statusCode = 200;
-  res.json({ name: 'John ' });
+  res.json({ name: 'Ascen' });
 };
