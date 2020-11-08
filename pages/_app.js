@@ -1,7 +1,6 @@
-import '../styles/globals.css'
+import '../styles/index.css';
+import 'react-sidebar-ui/dist/index.css';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />;
 }
-
-export default MyApp
