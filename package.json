@@ -8,9 +8,19 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "classnames": "2.2.6",
+    "date-fns": "2.10.0",
+    "gray-matter": "4.0.2",
     "next": "^9.5.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "swr": "^0.3.0"
-  }
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-sidebar-ui": "^1.2.1",
+    "tailwindcss": "^1.9.6"
+  },
+  "devDependencies": {
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.4.0"
+  },
+  "license": "MIT"
 }
